@@ -132,7 +132,7 @@
                   </ImageView>
                </graphic>
             </Button>
-            <ImageView fx:id="logo" fitHeight="66.0" fitWidth="200.0" layoutX="14.0" layoutY="10.0">
+            <ImageView fx:id="logo" fitHeight="66.0" fitWidth="200.0" layoutX="14.0" layoutY="6.0">
                <image>
                   <Image url="@../images/logo.png" />
                </image>
@@ -203,7 +203,7 @@
             </Button>
          </children>
          <effect>
-            <DropShadow color="#00000060" />
+            <DropShadow color="#0000003d" />
          </effect>
       </AnchorPane>
    </children>

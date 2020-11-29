@@ -14,7 +14,7 @@ public class Main extends Application {
 		try {
 			Parent root = FXMLLoader.load(getClass().getResource("/br/com/farmcontrol/view/resources/FXML/CrudAnimal.fxml"));
 			Scene scene = new Scene(root);
-			scene.getStylesheets().add("/br/com/farmcontrol/view/resources/styles/fxstyle.css");
+			scene.getStylesheets().add(getClass().getResource("/br/com/farmcontrol/view/resources/styles/style.css").toExternalForm());
 			primaryStage.setScene(scene);
 			primaryStage.show();
 		} catch(Exception e) {

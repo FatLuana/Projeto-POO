@@ -1,10 +1,11 @@
 #btn-menu {
-	-fx-text-fill: #7F7FFB;
-	-fx-background-color: #F1F5FE;
+	 -fx-text-fill: #7F7FFB;
+	 -fx-background-color: #F1F5FE; 
+	
 }
 
 #btn-menu:hover{
--fx-font-weight: bold;
+	-fx-font-weight: bold; 
 	-fx-background-color: #E5E8FD;
 }
 
