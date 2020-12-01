@@ -17,7 +17,7 @@ public class Ovo {
     private float valor_unidade;
     private int qtd_ovos;
     private Date data_producao;
-    private LoteAves lote;
+    public LoteAves lote;
 
     public int getId_ovo() {
         return id_ovo;
